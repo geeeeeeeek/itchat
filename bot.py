@@ -3,7 +3,7 @@
 # @Author: Marte
 # @Date:   2017-04-24 22:08:53
 # @Last Modified by:   Marte
-# @Last Modified time: 2017-04-24 22:08:56
+# @Last Modified time: 2017-04-24 22:54:22
 from wxbot import *
 import ConfigParser
 import json
@@ -13,7 +13,7 @@ class TulingWXBot(WXBot):
     def __init__(self):
         WXBot.__init__(self)
 
-        self.tuling_key = ""
+        self.tuling_key = "cdd4f8362ad24ab5aae007d97d6fb35f"
         self.robot_switch = True
 
         try:
